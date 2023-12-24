@@ -159,19 +159,19 @@
         <img src="Images/paintshop.jpg" alt="Paint shop">
         <h3>Paint Shop</h3>
         <p>I have developed paint shop website using Html,css,Javscript,Php,mysql</p>
-        <a href="https://github.com/Shree107"target="_blank" >Check It Out</a>
+        <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
       </div>
       <div class="project">
         <img src="Images/buspass.jpg" alt="Bus Pass MS">
         <h3>Buss Pass Management System</h3>
         <p>I have developed Bus pass management system website using Html,css,Javscript,Php,mysql</p>
-        <a href="https://github.com/Shree107"target="_blank">Check It Out</a>
+        <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
       </div>
       <div class="project">
         <img src="Images/vvitpay.jpg" alt="Third Project">
         <h3>College Fee Management </h3>
         <p>I have developed College Fee Management website using Html,css,Javscript,Php,mysql</p>
-        <a href="https://github.com/Shree107"target="_blank">Check It Out</a>
+        <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
       </div>
     </div>
   </div>
@@ -245,6 +245,25 @@
     });
   });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll('a');
+
+    links.forEach(link => {
+      link.addEventListener('click', smoothScroll);
+    });
+
+    function smoothScroll(e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  });
 </script>
 
 
