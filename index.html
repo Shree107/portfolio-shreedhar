@@ -27,15 +27,13 @@
       <h2>SHREEDHAR</h2>
       <button class="toggle-btn" onclick="toggleNav()">☰</button>
     </div>
-    <div class="nav-options">
-      <li><a href="#home" onclick="hideNavOptions()">Home <i class="bi bi-house"></i>
-        </a></li>
+    <div class="nav-options" id="nav-options">
+      <li><a href="#home" onclick="hideNavOptions()">Home <i class="bi bi-house"></i></a></li>
       <li><a href="#about" onclick="hideNavOptions()">About <i class="bi bi-arrow-down-circle"></i></a></li>
       <li><a href="#skills" onclick="hideNavOptions()">Skills <i class="bi bi-code-slash"></i></a></li>
       <li><a href="#projects" onclick="hideNavOptions()">Projects <i class="bi bi-cast"></i></a></li>
       <li><a href="#contact" onclick="hideNavOptions()">Contact <i class="bi bi-person-lines-fill"></i></a></li>
     </div>
-
   </nav>
 
   <div class="home" id="home">
@@ -50,8 +48,8 @@
         </h1>
         <h3>I am a <font color="blue">AI & DS Student</font>
         </h3>
-        <button class="aboutme"><a
-            href="https://drive.google.com/file/d/10SqifTuXhRJJpw1YN6ZBASKhzbd6EWZh/view?usp=sharing" target="_blank">My
+        <button class="aboutme">
+          <a href="https://drive.google.com/file/d/10SqifTuXhRJJpw1YN6ZBASKhzbd6EWZh/view?usp=sharing" target="_blank">My
             Resume <i class="bi bi-download"></i></a>
         </button>
         <br>
@@ -65,13 +63,15 @@
       </div>
     </div>
   </div>
+  
 
   <!-- About Section  -->
   <div class="about" id="about">
+    <h1 class="Section-Title">About Me</h1>
     <div class="about-container">
       <div class="about-info">
         <header>
-          <h2>About Me</h2>
+          <h2>Hello,</h2>
           <h3>I'm <span style="color: orangered;">Shreedhar Suresh Vharambale</span></h3>
           <p>
             Passionate about technology and driven by creativity, I am a dedicated individual with a strong background
@@ -87,11 +87,11 @@
       <div class="education">
         <h2>Current Education</h2>
         <p>
-          Currently pursuing a Bachelor's in <strong>Artificial Intelligence & Data Science</strong>, exploring advanced
+          Currently pursuing a Bachelor of Engineering in <strong>Artificial Intelligence & Data Science</strong>, exploring advanced
           concepts and technologies to build a foundation for solving complex real-world problems. <br><br>
           <strong>University:</strong> SavitriBai Phule Pune University<br>
           <strong>Degree:</strong> BE Artificial Intelligence & Data Science<br>
-          <strong>Year of Study:</strong> Third Year
+          <strong>Year of Study:</strong> Final Year
         </p>
       </div>
 
@@ -99,61 +99,128 @@
         <h2>Past Education</h2>
         <p>
           Successfully completed <strong> Diploma in Computer Engineering</strong>, gaining a solid understanding of
-          [Key Learnings] and laying the groundwork for my journey into the field of Comupter Science. <br><br>
+          Programming languages and laying the groundwork for my journey into the field of Comupter Science. <br><br>
           <strong>University:</strong> Shivaji University, Kolhapur <br>
           <strong>Course:</strong> Diploma in Computer Engineering<br>
           <strong>Year of Study:</strong> Completed(2022)
         </p>
       </div>
+
+      <div class="education">
+        <h2>Other Activities & Certifications</h2>
+        <ol>
+          <li>
+            3rd rank in  Anveshna National Compition, Mumbai
+          </li>
+          <li>
+            2nd rank in Biz-Fame at Samarth Group of Institute         
+            </li>
+            <li>
+              JCON paper publish & Project Competition at Jaihind
+            </li>
+            <li>
+              Participation in Project Compitation at IIIT & Nutan College Pune
+            </li>
+            <li>
+              NPTEL 'Python for Data Science' Certification
+            </li>
+            <li>
+              Completed SQL, Tableau Certifications from SkillAcedemy
+            </li>
+            <li>
+              Co-ordinated Technical Events at College
+            </li>
+
+        </ol>
+      </div>
     </div>
   </div>
 
 
 
-
-  <!-- skills section  -->
+  <!-- SKills section  -->
 
   <div class="skills" id="skills">
-    <h1>My Skills</h1>
+    <h1 class="Section-Title">My Skills</h1>
     <div class="skill-container">
-      <div class="skill">
-        <h3>HTML5</h3>
-        <div class="skill-bar" style="width: 90%;"></div>
-        <span class="skill-percentage">90%</span>
+      <h2>Languages & Databases</h2>
+      <div class="langs">
+        <div class="skill-card">
+          <img src="https://i.pinimg.com/564x/ed/66/63/ed666327dd3ce274d94f2b3547155891.jpg" alt="Python">
+          <h3>Python</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://i.pinimg.com/564x/27/a2/f8/27a2f88abe5273c129666eda7733bde1.jpg" alt="PHP">
+          <h3>PHP</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://i.pinimg.com/564x/69/e2/b3/69e2b3be6001c33141a95557a5f2cbcd.jpg" alt="JavaScript">
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://pbs.twimg.com/profile_images/1255113654049128448/J5Yt92WW_400x400.png" alt="MySQL">
+          <h3>MySQL</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://i.pinimg.com/564x/fb/1e/7f/fb1e7f9db2540c3194a9179094a925e2.jpg" alt="HTML">
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://i.pinimg.com/564x/a5/d2/a9/a5d2a913006aee3504a6882ce38f7959.jpg" alt="CSS">
+          <h3>CSS</h3>
+        </div>
       </div>
-      <div class="skill">
-        <h3>CSS3</h3>
-        <div class="skill-bar" style="width: 85%;"></div>
-        <span class="skill-percentage">85%</span>
+    </div>
+  
+    <div class="skill-container">
+      <h2>Libraries & Frameworks</h2>
+      <div class="langs">
+        <div class="skill-card">
+          <img src="https://media.licdn.com/dms/image/D4D12AQG7FHyRGR1mRg/article-cover_image-shrink_720_1280/0/1661493497844?e=2147483647&v=beta&t=1tqk7S08HAnSoCD9nn3fGhNWIeKJHbICoVN0uwDO7M4" alt="Numpy">
+          <h3>Numpy</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png" alt="Pandas">
+          <h3>Pandas</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/10/django-logo-big-removebg-preview.png?fit=632%2C395&ssl=1" alt="Django">
+          <h3>Django</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/640px-Bootstrap_logo.svg.png" alt="Bootstrap">
+          <h3>Bootstrap</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://static-00.iconduck.com/assets.00/tailwind-css-icon-1024x615-fdeis5r1.png" alt="Tailwind CSS">
+          <h3>Tailwind CSS</h3>
+        </div>
       </div>
-      <div class="skill">
-        <h3>PHP</h3>
-        <div class="skill-bar" style="width: 70%;"></div>
-        <span class="skill-percentage">70%</span>
-      </div>
-      <div class="skill">
-        <h3>JAVASCRIPT</h3>
-        <div class="skill-bar" style="width: 55%;"></div>
-        <span class="skill-percentage">55%</span>
-      </div>
-      <div class="skill">
-        <h3>PYTHON</h3>
-        <div class="skill-bar" style="width: 80%;"></div>
-        <span class="skill-percentage">80%</span>
-      </div>
-      <div class="skill">
-        <h3>SQL</h3>
-        <div class="skill-bar" style="width: 85%;"></div>
-        <span class="skill-percentage">85%</span>
+    </div>
+  
+    <div class="skill-container">
+      <h2>Other Tools & Technologies</h2>
+      <div class="langs">
+        <div class="skill-card">
+          <img src="https://www.inventateq.com/top-stories/wp-content/uploads/2024/05/tableau2.png" alt="Tableau">
+          <h3>Tableau</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/1200px-Microsoft_Excel_2013-2019_logo.svg.png" alt="Advance Excel">
+          <h3>Advance Excel</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="Jupyter Notebook">
+          <h3>Jupyter Notebook</h3>
+        </div>
       </div>
     </div>
   </div>
-
-
-
+  
   <!-- Project Section  -->
   <div class="projects" id="projects">
-    <h1 style="text-align: center;">Some of My Recent Projects</h1>
+    <h1 class="Section-Title">Some of My Recent Projects</h1>
+    <h2 >Web development Projects</h2>
     <div class="project-container">
       <div class="project">
         <img src="Images/paintshop.jpg" alt="Paint shop">
@@ -168,11 +235,32 @@
         <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
       </div>
       <div class="project">
-        <img src="Images/vvitpay.jpg" alt="Third Project">
-        <h3>College Fee Management </h3>
-        <p>I have developed College Fee Management website using Html,css,Javscript,Php,mysql</p>
+        <img src="Images/destrox.png" alt="Third Project">
+        <h3>Programming Study Portal</h3>
+        <p>I have developed Programing study portal using Djano,Html,css,Javscript, Google-Drive</p>
         <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
       </div>
+    </div>
+    <h2 >Data Analytics Projects</h2>
+    <!-- <div class="project-container">
+      <div class="project">
+        <img src="Images/paintshop.jpg" alt="Paint shop">
+        <h3>Paint Shop</h3>
+        <p>I have developed paint shop website using Html,css,Javscript,Php,mysql</p>
+        <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
+      </div>
+      <div class="project">
+        <img src="Images/buspass.jpg" alt="Bus Pass MS">
+        <h3>Buss Pass Management System</h3>
+        <p>I have developed Bus pass management system website using Html,css,Javscript,Php,mysql</p>
+        <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
+      </div>
+      <div class="project">
+        <img src="Images/destrox.png" alt="Third Project">
+        <h3>Destrox: Programming Study</h3>
+        <p>I have developed Programing study portal using Djano,Html,css,Javscript, Google-Drive</p>
+        <a href="https://github.com/Shree107" target="_blank">Check It Out</a>
+      </div> -->
     </div>
   </div>
 
@@ -183,18 +271,19 @@
 
   <!-- contact section  -->
   <section class="contact" id="contact">
-    <h1>Contact Me</h1>
-    <p>Feel free to reach out for collaboration or just to say hello!</p>
-
+    <h1 class="Section-Title">Contact Me</h1>
+    
     <form action="#" method="post">
+      <!-- <h2>Connect with me</h2> -->
+      <p>Feel free to reach out for collaboration or just to say hello!</p>
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" required placeholder="Enter Your Email">
 
       <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
+      <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
 
       <button type="submit">Send Message</button>
     </form>
@@ -228,4 +317,5 @@
 
 <!-- Include this script in your HTML file or in a separate JS file -->
 <script src="script.js"></script>
+
 </html>
